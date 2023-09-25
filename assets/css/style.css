@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Louis George Cafe";
+	src: url("../font/Louis George Cafe.ttf") format("truetype");
+}
+
+html {
+    background-image: url("../img/background.png");
+    font-family: 'Louis George Cafe';
+}
+
+.content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-line {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.second-line {
+    font-size: 48px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.third-line {
+    font-size: 36px;
+    color: #a9b1d6;
+    margin-top: 12px;
+}
